@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qrs-gS-5wu">
-                                <rect key="frame" x="0.0" y="40" width="375" height="96.5"/>
+                                <rect key="frame" x="10" y="40" width="355" height="96.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bu-JS-b6k">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -27,7 +28,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JLw-3F-t2q">
-                                        <rect key="frame" x="0.0" y="28.5" width="375" height="30"/>
+                                        <rect key="frame" x="0.0" y="28.5" width="355" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -38,16 +39,15 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="JLw-3F-t2q" firstAttribute="leading" secondItem="Qrs-gS-5wu" secondAttribute="leading" id="aXg-3G-GUC"/>
-                                    <constraint firstAttribute="trailing" secondItem="JLw-3F-t2q" secondAttribute="trailing" id="gTH-UP-DHU"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="JLw-3F-t2q" secondAttribute="trailing" id="5lv-e2-HL3"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qrs-gS-5wu" secondAttribute="trailing" id="4KC-Jp-4N8"/>
-                            <constraint firstItem="Qrs-gS-5wu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="OzK-6e-L2G"/>
-                            <constraint firstItem="Qrs-gS-5wu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PkV-Pq-NvB"/>
+                            <constraint firstItem="Qrs-gS-5wu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="V7J-eq-Jga"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qrs-gS-5wu" secondAttribute="trailing" constant="10" id="kao-ZY-sJY"/>
+                            <constraint firstItem="Qrs-gS-5wu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="u2u-z8-rlD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
