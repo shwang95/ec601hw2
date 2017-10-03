@@ -2,9 +2,6 @@
 //  ViewController.swift
 //  FoodTracker
 //
-//  Created by 王思翰 on 2017/10/2.
-//  Copyright © 2017年 Sihan Wang. All rights reserved.
-//
 
 import UIKit
 
@@ -39,3 +36,4 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
 }
+
