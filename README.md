@@ -6,4 +6,4 @@ There are two parts of the homework: one is the FoodTracker which is the toturia
 The result is saved in UnitTest.csv.
 
 # Automation Test
-Since my ios project need enroll into Apple Developer Program to generate ipa file, I use my classmate Keval's project to do this task. The result is saved in AutoTest.png
+Since my ios project need enroll into Apple Developer Program to generate ipa file, I use my classmate Keval's project (https://github.com/kev5/Firebase_Authentication) to do this task. The result is saved in AutoTest.png
